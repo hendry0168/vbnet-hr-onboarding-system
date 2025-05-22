@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{34C68F98-26C6-47C6-BC43-D73751364E94}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>HR.My.MyApplication</StartupObject>
+    <RootNamespace>HR</RootNamespace>
+    <AssemblyName>HR</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>HR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>HR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.v18.1.Core, Version=18.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DevExpress\DevExpress.Charts.v18.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v18.1, Version=18.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DevExpress\DevExpress.Data.v18.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v18.1, Version=18.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DevExpress\DevExpress.Utils.v18.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v18.1, Version=18.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DevExpress\DevExpress.XtraCharts.v18.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v18.1.UI, Version=18.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DevExpress\DevExpress.XtraCharts.v18.1.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v18.1.Wizard, Version=18.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DevExpress\DevExpress.XtraCharts.v18.1.Wizard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DevExpress\DevExpress.XtraEditors.v18.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v18.1, Version=18.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DevExpress\DevExpress.XtraGrid.v18.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DevExpress\DevExpress.XtraPrinting.v18.1.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>.\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connection.vb" />
+    <Compile Include="CustomFunctions.vb" />
+    <Compile Include="DataGrid\DataGrid.vb" />
+    <Compile Include="DataGrid\DataGridViewDateColumn.vb" />
+    <Compile Include="DataGrid\DataGridViewDateMonthColumn.vb" />
+    <Compile Include="DataGrid\DataGridViewDateTimeColumn.vb" />
+    <Compile Include="DataGrid\DataGridViewNumericUpDownColumn.vb" />
+    <Compile Include="DataGrid\DataGridViewProgressColumn.vb" />
+    <Compile Include="DataGrid\DataGridViewTimeColumn.vb" />
+    <Compile Include="DataGrid\DialogExport.Designer.vb">
+      <DependentUpon>DialogExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataGrid\DialogExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataGrid\FormReportGrid.Designer.vb">
+      <DependentUpon>FormReportGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DataGrid\FormReportGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data\Data.vb" />
+    <Compile Include="DateFunctions.vb" />
+    <Compile Include="DevExpress\DialogFilter.Designer.vb">
+      <DependentUpon>DialogFilter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\DialogFilter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\FormReportXChart.Designer.vb">
+      <DependentUpon>FormReportXChart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\FormReportXChart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\FormReportXGrid.Designer.vb">
+      <DependentUpon>FormReportXGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\FormReportXGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\FormXDataGrid.Designer.vb">
+      <DependentUpon>FormXDataGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\FormXDataGrid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevExpress\XDataGrid.Designer.vb">
+      <DependentUpon>XDataGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\XDataGrid.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DevExpress\XGrid.vb" />
+    <Compile Include="DevExpress\XSysGrid2.Designer.vb">
+      <DependentUpon>XSysGrid2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\XSysGrid2.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.vb">
+      <DependentUpon>FormAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDocReport.Designer.vb">
+      <DependentUpon>FormDocReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDocReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmployeeReport.Designer.vb">
+      <DependentUpon>FormEmployeeReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmployeeReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGenericMasterDataEntry.Designer.vb">
+      <DependentUpon>FormGenericMasterDataEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormGenericMasterDataEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.vb">
+      <DependentUpon>FormMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOffboardingEntry.Designer.vb">
+      <DependentUpon>FormOffboardingEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormOffboardingEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOffboardingReport.Designer.vb">
+      <DependentUpon>FormOffboardingReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormOffboardingReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOnboardingEntry.Designer.vb">
+      <DependentUpon>FormOnboardingEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormOnboardingEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOnboardingReport.Designer.vb">
+      <DependentUpon>FormOnboardingReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormOnboardingReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleHR.vb" />
+    <Compile Include="Money.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ReadOnly\SysBooleanIndicator.Designer.vb">
+      <DependentUpon>SysBooleanIndicator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReadOnly\SysBooleanIndicator.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReadOnly\SysComboBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReadOnly\SysNumericUpDown.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReadOnly\ucDateRange.Designer.vb">
+      <DependentUpon>ucDateRange.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReadOnly\ucDateRange.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRecordInformation.Designer.vb">
+      <DependentUpon>ucRecordInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucRecordInformation.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataGrid\DialogExport.resx">
+      <DependentUpon>DialogExport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataGrid\FormReportGrid.resx">
+      <DependentUpon>FormReportGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\DialogFilter.resx">
+      <DependentUpon>DialogFilter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\FormReportXChart.resx">
+      <DependentUpon>FormReportXChart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\FormReportXGrid.resx">
+      <DependentUpon>FormReportXGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\FormXDataGrid.resx">
+      <DependentUpon>FormXDataGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\XDataGrid.resx">
+      <DependentUpon>XDataGrid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\XSysGrid2.id.resx">
+      <DependentUpon>XSysGrid2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevExpress\XSysGrid2.resx">
+      <DependentUpon>XSysGrid2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDocReport.resx">
+      <DependentUpon>FormDocReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmployeeReport.resx">
+      <DependentUpon>FormEmployeeReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGenericMasterDataEntry.resx">
+      <DependentUpon>FormGenericMasterDataEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOffboardingEntry.resx">
+      <DependentUpon>FormOffboardingEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOffboardingReport.resx">
+      <DependentUpon>FormOffboardingReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOnboardingEntry.resx">
+      <DependentUpon>FormOnboardingEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOnboardingReport.resx">
+      <DependentUpon>FormOnboardingReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReadOnly\ucDateRange.resx">
+      <DependentUpon>ucDateRange.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucRecordInformation.resx">
+      <DependentUpon>ucRecordInformation.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Resources\icoSearch.ico.bk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoRefresh.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\-41601521573m6wvnjthos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Action_Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attachment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backward_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CMD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DocumentMap_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factory.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Filtering.Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forward_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gifLoading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Groups.Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderDetail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HistoryItem_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HitInfo.Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoActivity.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoAdd.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoAdd_.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoAdobe.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoAttachment.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoAuth.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoBarChart.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoCalculator.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoCalendar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoCamera.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoCancel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoCar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoCCTV.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoChip.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoClose.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoCompany.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoConn.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoConnect.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoContainer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoCopy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoDatabase.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoDataTransfer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoDelete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoDoc.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoDocFlow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoDown.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoDownloadHDD.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoEdit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoEmail.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoEmployee.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoError.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoExcel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoExit.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoFactory.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoFileCheck.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoFingerprintReader.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoFingerprintSearch.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoForklift.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoForward.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoGenerateTable.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoHelp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoHistory.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoHome.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoLeft.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoLocation.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoLock.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoLock1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoMaster.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoMaterial.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoMedicalInsurance.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoMileage.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoMinus.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoMoney.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoMonitor.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoMoveDown.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoMoveUp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoNew.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoOK.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPallet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPalmTree.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPaperDocument.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPartner.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPaste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPDF.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPermata.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPHG.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPlayGreen.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPlayGreen1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPlayGreen2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPlus.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPrint.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoProcess.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoQR.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoQuestion.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoRight.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoRun.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoSave.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoSearch.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoSecurity.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoService.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoSetting.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoShipment.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoSound.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoStopRed.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoStopRed1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoTax.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoText.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoTrafficLight.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoTruck.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoUnlock.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoUp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoUpload.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoUser.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoView.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoWebCam.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoWeigh.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoWeighStation.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoWorkFlow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasterDetail_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MasterDetailView.Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Preview.Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remark_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReportFormat16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tree16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\icoExport.ico" />
+    <Content Include="Resources\icoFooter.ico" />
+    <Content Include="Resources\icoStack.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

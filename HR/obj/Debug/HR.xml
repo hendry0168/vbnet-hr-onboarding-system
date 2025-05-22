@@ -1,0 +1,939 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HR
+</name>
+</assembly>
+<members>
+<member name="T:HR.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources._41601521573m6wvnjthos">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Action_Open">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Attachment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Backward_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Calendar_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.CMD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Copy_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.DocumentMap_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.factory">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Filtering_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Forward_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.gifLoading">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Grid_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Group_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Groups_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.HeaderDetail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.HistoryItem_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.HitInfo_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoActivity">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoAdd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoAdd_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoAdobe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoAttachment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoAuth">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoBarChart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoCalculator">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoCalendar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoCamera">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoCancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoCar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoCCTV">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoChip">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoClose">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoCompany">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoConn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoConnect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoContainer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoCopy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoDatabase">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoDataTransfer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoDelete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoDoc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoDocFlow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoDown">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoDownloadHDD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoEdit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoEmail">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoEmployee">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoError">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoExcel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoExit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoFactory">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoFileCheck">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoFingerprintReader">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoFingerprintSearch">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoForklift">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoForward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoGenerateTable">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoHelp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoHistory">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoHome">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoLeft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoLocation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoLock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoLock1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoMaster">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoMaterial">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoMedicalInsurance">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoMileage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoMinus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoMoney">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoMonitor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoMoveDown">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoMoveUp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoNew">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoOK">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPallet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPalmTree">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPaperDocument">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPartner">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPaste">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPDF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPermata">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPHG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPlayGreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPlayGreen1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPlayGreen2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPlus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoPrint">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoProcess">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoQR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoQuestion">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoRefresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoRefresh1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoRight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoRun">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoSave">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoSearch">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoSearch_ico">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoSecurity">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoService">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoSetting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoShipment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoSound">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoStopRed">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoStopRed1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoTax">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoText">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoTrafficLight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoTruck">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoUnlock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoUp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoUpload">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoUser">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoView">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoWebCam">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoWeigh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoWeighStation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.icoWorkFlow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Info_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MasterDetail_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.MasterDetailView_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Open_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Preview_Icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Remark_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.ReportFormat16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:HR.My.Resources.Resources.Tree16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:HR.CustomFunctions.getStringReader(System.Object)">
+ <summary>
+ this function checks if the value is null and pass the string "" if it is
+ it simply makes the code much readable by calling txt.Text = getStringReader(reader("field"))
+ </summary>
+ <param name="fromReader">SqlDataReader("fields")</param>
+ <returns></returns>
+</member>
+<member name="M:HR.CustomFunctions.getHash(System.String,System.String)">
+ <summary>
+ this function generates hash values from passed arguments and returns it
+ usually used for password encryption
+ password cannot be retrieved, resetting new password is the workaround (more security)
+ </summary>
+ <param name="value">String to be converted to hash.</param>
+ <param name="additional_keys">The additional_keys.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.CustomFunctions.LoadPrinterList(System.Windows.Forms.ComboBox)">
+ <summary>
+ Loads the printer list.
+ </summary>
+ <param name="cbo">The ComboBox where the list of printer will be loaded into</param>
+</member>
+<member name="M:HR.DateFunctions.GetFirstDayOfMonth(System.DateTime)">
+ <summary>
+ Get the first day of the month for
+ any full date submitted
+ </summary>
+ <param name="dtDate"></param>
+ <returns></returns>
+</member>
+<member name="M:HR.DateFunctions.GetFirstDayOfMonth(System.Int32)">
+ <summary>
+ Get the first day of the month for a
+ month passed by it's integer value
+ </summary>
+ <param name="iMonth"></param>
+ <returns></returns>
+</member>
+<member name="M:HR.DateFunctions.GetLastDayOfMonth(System.DateTime)">
+ <summary>
+ Get the last day of the month for any
+ full date
+ </summary>
+ <param name="dtDate"></param>
+ <returns></returns>
+</member>
+<member name="M:HR.DateFunctions.GetLastDayOfMonth(System.Int32)">
+ <summary>
+ Get the last day of a month expressed by it's
+ integer value
+ </summary>
+ <param name="iMonth"></param>
+ <returns></returns>
+</member>
+<member name="M:HR.DateFunctions.SpellTimeSpanToWords(HR.Money.MoneyLanguage,HR.DateFunctions.DateTimeSpan,System.Boolean,System.Boolean,System.String,System.String)">
+ <summary>
+ Spells the money to words.
+ </summary>
+ <param name="l">Language of the returned string.</param>
+ <param name="money">Money value.</param>
+ <param name="currency">The currency.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XDataGrid.GetValue(System.String,System.Int32)">
+ <summary>
+ Gets the value.
+ </summary>
+ <param name="ColumnName">Name of the column.</param>
+ <param name="RowIndex">Index of the row.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XDataGrid.GetValue(System.Int32,System.Int32)">
+ <summary>
+ Gets the value.
+ </summary>
+ <param name="ColumnIndex">Index of the column.</param>
+ <param name="RowIndex">Index of the row.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XDataGrid.GetSelectedValue(System.String)">
+ <summary>
+ Gets the selected value.
+ </summary>
+ <param name="ColumnName">Name of the column.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XDataGrid.GetSelectedValue(System.Int32)">
+ <summary>
+ Gets the selected value.
+ </summary>
+ <param name="ColumnIndex">Index of the column.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XDataGrid.GetSelectedValues(System.Int16)">
+ <summary>
+ Gets the selected values.
+ </summary>
+ <param name="ColumnIndex">Index of the column.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XDataGrid.GetSelectedValues(System.String)">
+ <summary>
+ Gets the selected values.
+ </summary>
+ <param name="ColumnName">Name of the column.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XDataGrid.GetSelectedRows">
+ <summary>
+ Gets the selected rows.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:HR.XDataGrid.GetRowCount">
+ <summary>
+ Gets the total rows.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:HR.XDataGrid.EnableContextMenu">
+ <summary>
+ Gets or sets a value indicating whether context menu is enabled or disabled.
+ </summary>
+ <value></value>
+ <returns>true for context menu is enabled; otherwise, false. The default value is true.
+ </returns>
+</member>
+<member name="M:HR.XGrid.SetXGridDisplay(DevExpress.XtraGrid.Views.Grid.GridView,System.Data.DataTable,System.Boolean)">
+ <summary>
+ Sets the XGrid Layout to accomodate the table's datatype.
+ </summary>
+ <param name="grd">The XGridView GridView Control.</param>
+ <param name="dt">The DataTable.</param>
+ <param name="AssignDataSource">if set to <c>true</c> [assign data source].</param>
+</member>
+<member name="M:HR.XGrid.SetXGridDisplay(DevExpress.XtraGrid.Views.BandedGrid.AdvBandedGridView,System.Data.DataTable,System.Boolean)">
+ <summary>
+ Sets the XGrid Layout to accomodate the table's datatype.
+ </summary>
+ <param name="grd">The XGridView BandedGridView Control.</param>
+ <param name="dt">The DataTable.</param>
+ <param name="AssignDataSource">if set to <c>true</c> [assign data source].</param>
+</member>
+<member name="M:HR.XGrid.ExportData(DevExpress.XtraGrid.GridControl,HR.DataGrid.FileFormat)">
+ <summary>
+ Exports the data.
+ </summary>
+ <param name="grc">The XtraGrid GridControl</param>
+ <param name="f">The file format</param>
+</member>
+<member name="M:HR.XSysGrid2.initSearch(System.String,System.String[],System.Int64,System.String,System.String,System.String)">
+ <summary>
+ Inits the search.
+ </summary>
+ <param name="Table_Name">Name of the table/view.</param>
+ <param name="Displayed_Fields">The array of displayed fields.</param>
+ <param name="Max_Count">The maximum number of displayed records.</param>
+ <param name="Connection_String">The connection string.</param>
+ <param name="SQLFilter_String">The SQL filter string (without WHERE clause).</param>
+ <param name="OrderBy_String">Order by string (without ORDER BY clause).</param>
+</member>
+<member name="P:HR.XSysGrid2.AllowMultiSelection">
+ <summary>
+ Gets or sets a value indicating whether [allow multi selection].
+ </summary>
+ <value><c>true</c> if [allow multi selection]; otherwise, <c>false</c>.</value>
+</member>
+<member name="M:HR.XSysGrid2.GetValue(System.String,System.Int32)">
+ <summary>
+ Gets the value.
+ </summary>
+ <param name="ColumnName">Name of the column.</param>
+ <param name="RowIndex">Index of the row.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XSysGrid2.GetValue(System.Int32,System.Int32)">
+ <summary>
+ Gets the value.
+ </summary>
+ <param name="ColumnIndex">Index of the column.</param>
+ <param name="RowIndex">Index of the row.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XSysGrid2.GetSelectedValue(System.String)">
+ <summary>
+ Gets the selected value.
+ </summary>
+ <param name="ColumnName">Name of the column.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XSysGrid2.GetSelectedValue(System.Int32)">
+ <summary>
+ Gets the selected value.
+ </summary>
+ <param name="ColumnIndex">Index of the column.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XSysGrid2.GetSelectedValues(System.Int16)">
+ <summary>
+ Gets the selected values.
+ </summary>
+ <param name="ColumnIndex">Index of the column.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XSysGrid2.GetSelectedValues(System.String)">
+ <summary>
+ Gets the selected values.
+ </summary>
+ <param name="ColumnName">Name of the column.</param>
+ <returns></returns>
+</member>
+<member name="M:HR.XSysGrid2.GetSelectedRows">
+ <summary>
+ Gets the selected rows.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:HR.XSysGrid2.RefreshData(System.Object)">
+ <summary>
+ Refreshes the data.
+ </summary>    
+</member>
+<member name="M:HR.XSysGrid2.LockControls(System.Boolean,System.Boolean)">
+ <summary>
+ Locks the controls.
+ </summary>
+ <param name="locked">if set to <c>true</c> disable user inputs.</param>
+ <param name="HideGrid">if set to <c>true</c> hide grid and show loading progress circle.</param>
+</member>
+<member name="M:HR.Money.SpellMoneyToWords(HR.Money.MoneyLanguage,System.Decimal,System.String)">
+ <summary>
+ Spells the money to words.
+ </summary>
+ <param name="l">Language of the returned string.</param>
+ <param name="money">Money value.</param>
+ <param name="currency">The currency.</param>
+ <returns></returns>
+</member>
+<member name="T:HR.SysComboBox">
+ <summary>
+ Combo box with read only property
+ </summary>
+</member>
+<member name="P:HR.SysComboBox.CharacterCasing">
+ <summary>
+ Gets or sets the character casing.
+ </summary>
+ <value>The character casing.</value>
+</member>
+<member name="P:HR.SysComboBox.ReadOnly">
+ <summary>
+ Gets or sets a value indicating whether [read only].
+ </summary>
+ <value><c>true</c> if [read only]; otherwise, <c>false</c>.</value>
+</member>
+<member name="T:HR.SysNumericUpDown">
+ <summary>
+ Numeric Up Down control with read only property
+ </summary>
+</member>
+<member name="P:HR.SysNumericUpDown.ReadOnly">
+ <summary>
+ Gets or sets a value indicating whether the text can be changed by the use of the up or down buttons only.
+ </summary>
+ <value></value>
+ <returns>true if the text can be changed by the use of the up or down buttons only; otherwise, false. The default value is false.
+ </returns>
+</member>
+<member name="P:HR.SysNumericUpDown.DecimalTreatment">
+ <summary>
+ Gets or sets a value indicating whether the value will be rounded when the value is changed.
+ </summary>
+ <value></value>
+ <returns>true if the value is to be rounded; otherwise, false. The default value is true.
+ </returns>
+</member>
+</members>
+</doc>
