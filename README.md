@@ -23,19 +23,29 @@ This is a VB.NET desktop application designed to manage the full employee lifecy
 - **VB.NET (Windows Forms)**
 - **SQL Server (SSMS)**
 
+## 🗄️ Database
+
+The SQL Server (SSMS) dataset required for this application is stored in a **separate GitHub repository**.
+
+🔗 Download or clone it from:  
+[https://github.com/hendry0168/shared-HR-dataset](https://github.com/hendry0168/shared-HR-dataset)
+
+> Please restore the provided `.bak` file in that repository to your local SQL Server instance and update the connection string in the code accordingly.
+
 ## 📂 Folder Structure
 
-- `/Forms` - All VB.NET forms (UI)
-- `/Reports` - Report generation files
-- `/SQL` - Sample SQL scripts for table creation and testing
+- `/Forms` – VB.NET form UI files
+- `/Reports` – Report generation logic
+- `/SQL` – Sample or reference SQL scripts
+- `/README.md` – Project documentation
 
 ## 📌 Note
 
-🔐 The database connection string has been replaced with placeholders for security. Please update it with your own SQL Server details.
-
----
+🔐 The database connection string in the code uses placeholders for security.  
+Make sure to update it with your actual SQL Server instance, database name, and credentials.
 
 ## 👨‍💻 Author
 
-Created by [Your Name].  
-Feel free to fork, improve, or use this for learning and demonstration purposes.
+Created by Hendry.
+
+Feel free to fork, improve, or use this project for learning and demonstration purposes.
